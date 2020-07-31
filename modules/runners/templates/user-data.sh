@@ -10,7 +10,7 @@ amazon-linux-extras install docker
 service docker start
 usermod -a -G docker ec2-user
 
-yum install -y curl jq git
+yum install -y curl jq git xorg-x11-server-Xvfb libXcomposite libXcursor libXi libXtst gdk-pixbuf2 gtk3 libXScrnSaver alsa-lib
 
 # Install runner
 cd /home/ec2-user
